@@ -7,9 +7,14 @@ qpwgraph
 awesome
 xorg-server
 xorg-xinit
+xorg-xrdb
 opendoas
 unclutter
 picom
 rustup
-java-runtime-common
-
+jre-openjdk
+neofetch
+zsh
+mpv
+sxiv
+lua
