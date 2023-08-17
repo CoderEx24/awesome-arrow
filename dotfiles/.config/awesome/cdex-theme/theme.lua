@@ -9,24 +9,24 @@ local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.wallpaper = themes_path .. "zenburn/background.png"
+theme.wallpaper = themes_path .. "cdex-theme/background.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 8"
+theme.font      = "Inconolata Expaneded Black 8"
 
 -- {{{ Colors
-theme.fg_normal  = "#DCDCCC"
+theme.fg_normal  = "#FCDCCC"
 theme.fg_focus   = "#F0DFAF"
 theme.fg_urgent  = "#CC9393"
-theme.bg_normal  = "#3F3F3F"
+theme.bg_normal  = "#1111a4"
 theme.bg_focus   = "#1E2320"
 theme.bg_urgent  = "#3F3F3F"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(0)
+theme.useless_gap   = dpi(6)
 theme.border_width  = dpi(2)
 theme.border_normal = "#3F3F3F"
 theme.border_focus  = "#6F6F6F"
@@ -74,10 +74,14 @@ theme.menu_width  = dpi(100)
 
 -- {{{ Icons
 -- {{{ Taglist
+theme.taglist_font = "Font Awesome 8"
+theme.taglist_spacing = 5
 theme.taglist_squares_sel   = themes_path .. "zenburn/taglist/squarefz.png"
 theme.taglist_squares_unsel = themes_path .. "zenburn/taglist/squarez.png"
 --theme.taglist_squares_resize = "false"
 -- }}}
+--
+theme.tasklist_disable_task_name = true
 
 -- {{{ Misc
 theme.awesome_icon           = themes_path .. "zenburn/awesome-icon.png"
