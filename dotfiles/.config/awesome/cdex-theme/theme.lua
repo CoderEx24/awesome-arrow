@@ -15,12 +15,15 @@ theme.wallpaper = themes_path .. "cdex-theme/background.png"
 -- {{{ Styles
 theme.font      = "Inconolata Expaneded Black 8"
 
+local bright_blue = "#47c1f1"
+local dark_blue   = "#1111a4"
+
 -- {{{ Colors
-theme.fg_normal  = "#FCDCCC"
-theme.fg_focus   = "#F0DFAF"
+theme.fg_normal  = bright_blue -- "#47c1f1"
+theme.fg_focus   = dark_blue -- "#1111a4"
 theme.fg_urgent  = "#CC9393"
-theme.bg_normal  = "#1111a4"
-theme.bg_focus   = "#47c1f1"
+theme.bg_normal  = '#222222' -- dark_blue -- "#1111a4"
+theme.bg_focus   = bright_blue -- "#47c1f1"
 theme.bg_urgent  = "#3F3F3F"
 theme.bg_systray = theme.bg_normal
 -- }}}
@@ -55,7 +58,7 @@ theme.titlebar_bg_normal = "#3F3F3F"
 --theme.fg_widget        = "#AECF96"
 --theme.fg_center_widget = "#88A175"
 --theme.fg_end_widget    = "#FF5656"
---theme.bg_widget        = "#494B4F"
+--theme.bg_widget        = "#fffB4F"
 --theme.border_widget    = "#3F3F3F"
 -- }}}
 
@@ -78,6 +81,7 @@ theme.taglist_font = "Font Awesome 8"
 theme.taglist_spacing = 5
 theme.taglist_squares_sel   = themes_path .. "zenburn/taglist/squarefz.png"
 theme.taglist_squares_unsel = themes_path .. "zenburn/taglist/squarez.png"
+theme.taglist_bg_normal = '#fff333'
 --theme.taglist_squares_resize = "false"
 -- }}}
 --
