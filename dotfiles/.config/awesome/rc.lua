@@ -47,7 +47,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("/home/coderex/.config/awesome/zenburn/theme.lua")
+beautiful.init("/home/coderex/.config/awesome/cdex-theme/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty -e zsh -i -c tmux"
