@@ -20,7 +20,7 @@ theme.fg_normal  = "#FCDCCC"
 theme.fg_focus   = "#F0DFAF"
 theme.fg_urgent  = "#CC9393"
 theme.bg_normal  = "#1111a4"
-theme.bg_focus   = "#1E2320"
+theme.bg_focus   = "#47c1f1"
 theme.bg_urgent  = "#3F3F3F"
 theme.bg_systray = theme.bg_normal
 -- }}}
