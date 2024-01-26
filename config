@@ -1,4 +1,4 @@
-install_cmd='sudo pacman -S'
+install_cmd='sudo pacman -S --noconfirm'
 m_copy_dotfiles=1
 m_install_programs=1
 m_run_scripts=1
