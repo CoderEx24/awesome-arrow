@@ -1,5 +1,4 @@
 #!/usr/bin/sh
 
-su
-echo "permit persist :wheel" > /etc/doas.conf
+su -c "echo 'permit persist :wheel' > /etc/doas.conf"
 
